@@ -6,7 +6,7 @@
   <link href="/rss2.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-17T01:45:38.123Z</updated>
+  <updated>2017-09-17T13:34:53.529Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,15 +21,18 @@
     <link href="http://yoursite.com/2017/09/17/article-title/"/>
     <id>http://yoursite.com/2017/09/17/article-title/</id>
     <published>2017-09-17T01:44:57.712Z</published>
-    <updated>2017-09-17T01:45:38.123Z</updated>
+    <updated>2017-09-17T13:34:53.529Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="date-2017-09-17-09-44-57"><a href="#date-2017-09-17-09-44-57" class="headerlink" title="date: 2017-09-17 09:44:57  "></a>date: 2017-09-17 09:44:57  </h2><h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2>]]></content>
+    <content type="html"><![CDATA[<p>date: 2017-09-17 09:44:57  </p><p>tags: [Test, hexo, blog]  </p><p>categeries: 博客测试</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;date-2017-09-17-09-44-57&quot;&gt;&lt;a href=&quot;#date-2017-09-17-09-44-57&quot; class=&quot;headerlink&quot; title=&quot;date: 2017-09-17 09:44:57  &quot;&gt;&lt;/a&gt;date: 2017-
+        &lt;p&gt;date: 2017-09-17 09:44:57  &lt;/p&gt;
+&lt;p&gt;tags: [Test, hexo, blog]  &lt;/p&gt;
+&lt;p&gt;categeries: 博客测试&lt;/p&gt;
+
       
     
     </summary>
