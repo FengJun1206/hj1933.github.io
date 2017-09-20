@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[test1]]></title>
+    <url>%2F2017%2F09%2F20%2Ftest1%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>test1</tag>
+        <tag>one</tag>
+        <tag>two</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[test]]></title>
     <url>%2F2017%2F09%2F19%2Ftest%2F</url>
     <content type="text"></content>

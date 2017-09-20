@@ -6,7 +6,7 @@
   <link href="/rss2.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-19T13:49:32.424Z</updated>
+  <updated>2017-09-20T05:33:28.091Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test1</title>
+    <link href="http://yoursite.com/2017/09/20/test1/"/>
+    <id>http://yoursite.com/2017/09/20/test1/</id>
+    <published>2017-09-20T05:29:11.000Z</published>
+    <updated>2017-09-20T05:33:28.091Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="测试" scheme="http://yoursite.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="test1" scheme="http://yoursite.com/tags/test1/"/>
+    
+      <category term="one" scheme="http://yoursite.com/tags/one/"/>
+    
+      <category term="two" scheme="http://yoursite.com/tags/two/"/>
+    
+  </entry>
   
   <entry>
     <title>test</title>
