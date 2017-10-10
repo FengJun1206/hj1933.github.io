@@ -6,7 +6,7 @@
   <link href="/rss2.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-07T13:58:25.144Z</updated>
+  <updated>2017-10-10T12:14:11.466Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2017/10/10/change-blog/"/>
+    <id>http://yoursite.com/2017/10/10/change-blog/</id>
+    <published>2017-10-10T11:29:15.311Z</published>
+    <updated>2017-10-10T12:14:11.466Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: 更换电脑如何配置hexo搭建的博客<br>date: 2017-10-10 19:29:15<br>tags:</p><ul><li>hexo</li><li>blog</li><li>git</li><li>github<br>categories: 博客搭建</li></ul><hr><h1 id="1、必须拷贝的文件"><a href="#1、必须拷贝的文件" class="headerlink" title="1、必须拷贝的文件"></a>1、必须拷贝的文件</h1><p>更换电脑后，要想使用hexo搭建的博客，必须在新电脑上搭建hexo环境，大概分为以下几个步骤：  </p><ul><li>拷贝原有电脑本地仓库到新电脑</li><li>新电脑上搭建hexo环境</li><li>组件安装</li><li>部署执行完成  </li></ul><p>必须将你原来电脑上已经配置好并生成的hexo目录拷到你的新电脑上，注意无需拷全部，只拷如下几个目录：  </p><blockquote><p> _config.yml<br>package.json<br>scaffolds/<br>source/<br>themes/  </p></blockquote><h1 id="2、新电脑搭建hexo环境"><a href="#2、新电脑搭建hexo环境" class="headerlink" title="2、新电脑搭建hexo环境"></a>2、新电脑搭建hexo环境</h1><ul><li>安装git，安装node.js  </li><li>打开git bash，输入npm install hexo-cli -g，安装hexo  </li><li>将原来的文件拷贝到新电脑某个目录下  </li><li>切换到新目录下，使用npm install命令进行模块安装（<strong>不能使用hexo init对hexo初始化</strong>）  </li></ul><h1 id="3、组件安装"><a href="#3、组件安装" class="headerlink" title="3、组件安装"></a>3、组件安装</h1><pre><code>npm install hexo-deployer-git --save    为了使用hexo d来部署到git上  npm install hexo-generator-feed --save   为了建立RSS订阅  pm install hexo-generator-sitemap --save  为了建立站点地图  插件安装后，有的需要对配置文件_config.yml进行配置，具体怎么配置，可以参考上面插件在github主页上的具体说明</code></pre><h1 id="4、部署完成"><a href="#4、部署完成" class="headerlink" title="4、部署完成"></a>4、部署完成</h1><p>git bash窗口输入hexo g，再使用hexo d进行部署即可  </p><h1 id="5、添加ssh"><a href="#5、添加ssh" class="headerlink" title="5、添加ssh"></a>5、添加ssh</h1><ul><li><p>打开git bash，在用户主目录下运行：ssh-keygen -t rsa -C “youremail@example.com” 把其中的邮件地址换成自己的邮件地址，然后一路回车  </p></li><li><p>最后完成后，会在用户主目录下生成.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH key密钥对，id_rsa是私钥，千万不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人。  </p></li><li><p>登陆GitHub，打开「Settings」-&gt;「SSH and GPG keys」，然后点击「new SSH key」，填上任意Title，在Key文本框里粘贴公钥id_rsa.pub文件的内容（千万不要粘贴成私钥了！），最后点击「Add SSH Key」，你就应该看到已经添加的Key。  </p></li><li>注意：不要在git版本库中运行ssh，然后又将它提交，这样就把密码泄露出去了。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;hr&gt;
+&lt;p&gt;title: 更换电脑如何配置hexo搭建的博客&lt;br&gt;date: 2017-10-10 19:29:15&lt;br&gt;tags:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hexo&lt;/li&gt;
+&lt;li&gt;blog&lt;/li&gt;
+&lt;li&gt;git&lt;/li&gt;
+&lt;li&gt;github&lt;br&gt;categ
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>hexo 博客搭建</title>
